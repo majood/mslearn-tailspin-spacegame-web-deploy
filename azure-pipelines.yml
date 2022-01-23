@@ -29,7 +29,7 @@ stages:
     - task: NodeTool@0
       displayName: 'Install Node.js'
       inputs:
-        versionSpec: '17.x'
+        versionSpec: '8.x'
         checkLatest: true
 
     - task: Npm@1
